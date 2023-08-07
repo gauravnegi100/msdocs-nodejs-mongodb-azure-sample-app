@@ -34,6 +34,6 @@ jobs:
       with:
         app-name: myJavaApp011
         slot-name: example-slot
-        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_37BE0434DDC04DF4B820421E5C84416B }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_47D50196C7A94CCE93F62ABBB6B8BD91 }}
         package: .
 
