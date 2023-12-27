@@ -19,9 +19,9 @@ steps:
 - task: AzureRmWebAppDeployment@4
   inputs:
     ConnectionType: 'AzureRM'
-    azureSubscription: '<service-connection-name>'
+    azureSubscription: 'lab-test-conn'
     appType: 'webApp'
-    WebAppName: '<app-name>'
+    WebAppName: 'web-app-10101'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     enableCustomDeployment: true
     DeploymentType: 'webDeploy'
